@@ -1,14 +1,41 @@
 {
   "name": "@ecosia/stylelint-config-property-sort-order-smacss",
-  "version": "1.00",
+  "version": "1.0.0",
   "description": "Stylelint config for Property Sort Ordering based on the SMACSS methodology",
   "type": "module",
   "main": "index.js",
   "files": [
     "index.js",
-    "generate.js"
+    "generate.js",
+    "README.md",
+    "LICENSE.md"
   ],
-  "devDependencies": {
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "stylelint",
+    "stylelint-config",
+    "css",
+    "property-order",
+    "smacss",
+    "css-properties",
+    "linting"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ecosia/stylelint-config-property-sort-order-smacss.git"
+  },
+  "homepage": "https://github.com/ecosia/stylelint-config-property-sort-order-smacss#readme",
+  "bugs": {
+    "url": "https://github.com/ecosia/stylelint-config-property-sort-order-smacss/issues"
+  },
+  "author": "Ecosia GmbH <opensource@ecosia.org>",
+  "license": "SEE LICENSE IN 'LICENSE.md'",
+  "peerDependencies": {
+    "stylelint": "^14.0.0 || ^15.0.0 || ^16.0.0"
+  },
+  "dependencies": {
     "@ecosia/css-property-sort-order-smacss": "1.0.0",
     "stylelint-order": "7.0.0"
   }
