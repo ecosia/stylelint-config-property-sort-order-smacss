@@ -2,8 +2,9 @@
 
 [Stylelint](https://github.com/stylelint/stylelint) config for Property Sort Ordering based on the [SMACSS](http://smacss.com) methodology.
 
-> [!NOTE]
-> Forked from [stylelint-config-property-sort-order-smacss](https://github.com/cahamilton/stylelint-config-property-sort-order-smacss/) as it appears abandoned and has not kept up-to-date with newer CSS properties.
+## Related Packages
+
+- [stylelint-config-property-sort-order-smacss](https://github.com/cahamilton/stylelint-config-property-sort-order-smacss/)
 
 ## Usage
 
@@ -182,3 +183,11 @@ a {
   color: black;
 }
 ```
+
+## Contributing
+
+See [CONTRIBUTING.md](./CONTRIBUTING.md) for contribution guidelines.
+
+## License
+
+See [LICENSE.md](./LICENSE.md) for license information.
